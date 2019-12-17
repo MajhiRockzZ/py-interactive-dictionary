@@ -13,3 +13,9 @@ def translate(word):
 
 word = input("Enter word: ")
 print(translate(word))
+
+"""
+import difflib
+from difflib import SequenceMatcher
+SequenceMatcher(None, "rainn", "rain").ratio()
+"""
