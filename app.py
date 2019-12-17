@@ -19,3 +19,11 @@ import difflib
 from difflib import SequenceMatcher
 SequenceMatcher(None, "rainn", "rain").ratio()
 """
+
+"""
+from difflib import get_close_matches
+help(get_close_matches)
+get_close_matches("rainn", ["help", "pyramid", "rain"])
+get_close_matches("rainn", data.keys())
+get_close_matches("rainn", data.keys())[0]
+"""
